@@ -4,7 +4,7 @@ function makeid(l) {
 let charList="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghigklmnopqrstuvwxyz0123456789"
 for(var i=0;i<l;i++){
 	result+=charList.charAt(
-		Math.foor(Math.random()*charList/length);
+		Math.foor(Math.random()*charList.length);
 	)
 }
 	return result
