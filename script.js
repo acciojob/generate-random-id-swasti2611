@@ -1,6 +1,6 @@
 function makeid(l) {
   // write your code here
-	let res=" ";
+	let res="";
 	let charList="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
 	for (let index = 0; index <l ; index++) {
 		 res+=charList.charAt(
@@ -14,5 +14,6 @@ function makeid(l) {
 }
 
 // Do not change the code below.
-const l = prompt("Enter a number.");
-alert(makeid(l));
+const l = prompt("Enter a number.") ;
+ alert(makeid(l));
+
